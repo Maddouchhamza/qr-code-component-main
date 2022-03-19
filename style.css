@@ -2,28 +2,29 @@
 body{
     background-color: hsl(212, 45%, 89%);
     text-align: center;
-    display: flex;
     font-family: 'Outfit', sans-serif;
-    align-items: center;
-    
 }
 
-.content{
+section{
+    /* font-size: 30px; */
     background-color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     height: 507px;
     width: 350px;
     border-radius: 1.5rem ;
     margin: auto;
+    margin-top: 130px;
+    padding-top: 1rem;
 }
-.main{
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
+
+.imgqr{
+    align-self: center;
 }
+
+#imgqr{
+    width: 320px;
+    border-radius: 1.5rem ;
+}
+
 .text{
     font-size: 20px;
     font-weight: 700;
@@ -35,13 +36,4 @@ body{
     font-size: 15px;
     padding: 0.5rem 3rem 1rem 3rem;
     font-weight: 400;
-}
-
-.imgqr{
-    align-self: center;
-}
-
-#imgqr{
-    width: 320px;
-    border-radius: 1.5rem ;
 }
